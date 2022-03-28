@@ -1,0 +1,112 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	font-family: 'Poppins', sans-serif !important;
+	background-color: $bodyColor;
+}
+.title {
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #65a30d;
+	font-family: 'Poppins', sans-serif;
+
+	span{
+		color: $title;
+	}
+}
+
+
+.nav {
+	height: 75px;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.form__width {
+	width: $formWidth;
+}
+
+.form__bg {
+	background-color: white;
+	padding: 1rem;
+}
+
+.display__box {
+	padding: 2rem;
+	width: 600px;
+	max-height: 1000px;
+	background-color: red;
+	border-radius: 6px;
+	background-color: #2563eb;
+	color: white;
+	overflow: hidden;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+
+	.todo__title {
+		font-size: 2rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding-bottom: .5rem;
+		border-bottom: 1px solid rgba(255, 255, 255, .4);
+	}
+	p {
+			margin-bottom: 0 !important;
+			color: #f3f4f6;
+			font-size: 1rem;
+	}
+}
+
+
+.todo {
+	padding: .5rem 1rem;
+	margin: 0 .5rem .5rem .5rem;
+	background-color: white;
+	border-radius: 3px;
+
+	h4 {
+		margin-bottom: 0 !important;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	a{
+		text-decoration: none !important;
+		color: #374151;
+	}
+}
+
+.todays__list {
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 1;
+	margin: 1rem 0;
+}
+
+.todo__card {
+	margin-top: 2rem;
+}
+
+.todo__btns {
+	.custom__btn {
+		padding: .5rem .75rem;
+		border-radius: 4px;
+		color: white;
+		font-size: .7rem;
+	}
+
+	.add__btn {
+		background-color: #4ade80;
+	}
+	.delete__btn {
+		background-color: #f87171;
+	}
+}
